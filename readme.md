@@ -35,7 +35,7 @@ Agent uses ConversationBufferWindowMemory to maintain memory
 - After selecting the number, the respective model will be used to initialize the agent pipeline.
 - Enter 'quit' if you want to end the chat
 - The Agent primarily focuses on the Vector Index to answer your queries. It has been Prompt designed that way. But as you continue pressing for information outside, it will use the LLM's base trained knowledge.
-- Enter 'feedback' to enter into feedback mode and enter your instructions if you want to explicitly instruct the agent to do something. For Example, "Talk only about Girls no matter what movie genre the user requests", the agent will do so and priorotize your instructions.
+- Enter 'feedback' to enter into feedback mode and enter your instructions if you want to explicitly instruct the agent to do something. For Example, "Give memore famous movies only", the agent will do so and priorotize your instructions.
 - Very rarely, the agent might throw a 'something went wrong', try again.
 - The agent verbose is on. So expect to see the background thought processes before seeing the final response. The final response is indicated by "AI: <text>"
 - The Prompting in this project has been kept really simple for ease.
